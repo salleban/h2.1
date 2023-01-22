@@ -80,8 +80,28 @@ Viimeisimpänä ajattelin tuoda esille Etc kansiot, joka käytännössä pitää
 Kuten huomaa, etc kansion sisältö ei aivan edes mahtunut koko screenshottiin.. 
 
 
+## grep
 
+Lähdin tutkimaan aihetta eri sivustojen kautta sekä katselemalla parit youtube videot. Testailin hetken ja en meinannut alkaa saada onnistumisia. 
+Kuitenkin kokeilin kuinka käyttää grep komentoa eri tarkoituksissa. 
 
+Ensimmäisenä esimerkkinä oli lähde listauksen mukaisesti katsottu grep komento IP-osoitteen perusteella. 
+
+        $ grep -r "192.168.1.5" /etc/
+        
+-KUVA-
+
+Toisena ja viimeisempänä käytin grep komennon avulla värimuutosta. 
+
+        $ GREP_COLOR='1;35' grep --color=always nobody /etc/passwd
+        
+-KUVA-
+
+## Tiivistelmä
+
+On hauska huomata kuinka paljon eri asioita terminaalin avulla voikaan tehdä. Ei pelkästään antaa komentoja vaan myös luoda ulkoasua Terminaalin sisällä. 
+Linux on vienyt minun huomioni täysin. Pitkään olen miettinyt asentavani Linux käyttöjärjestelmän raudalle, mutta toistaiseksi näin ei ole vielä tapahtunut. 
+Nyt kyllä ajatus alkaa muuttua toteutuksen puolelle kuitenkin tämän suhteen. Kohti seuraavaa!
         
 
 ## Lähteet
