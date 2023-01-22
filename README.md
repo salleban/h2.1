@@ -17,7 +17,8 @@ Tämän jälkeen listasin testaamani koneen raudan kirjoittamalla seuraavan kome
 
         $ sudo lshw -short -sanitize
         
-KUVA
+![Kuva 2 1](https://user-images.githubusercontent.com/100162043/213925784-e5f4d8ec-9f49-401e-9444-413a46a58a66.jpg)
+
 
 
 Kuvan perusteella huomasin, että lshw komentoa ei löydetty, joten jatkoin asentamalla lshw:n terminaaliin:
@@ -26,7 +27,8 @@ Kuvan perusteella huomasin, että lshw komentoa ei löydetty, joten jatkoin asen
         
 Nyt kun kirjoitin komennon uudelleen, tulee haettu näkymä. 
 
-KUVA
+![Kuva 3 1](https://user-images.githubusercontent.com/100162043/213925792-bd93cc91-43de-43c4-a45f-bf197d46c07b.jpg)
+
 
 
 Analyysi kertoo, että oma koneeni pitää sisällään Inter(R) Core(TM) i5-1035G1 CPU @ 1.00GHz prossun. Tämän lisäksi löydän tiedon asettamastani 4GiB muistista,
@@ -42,7 +44,8 @@ Asentelin nämä ohjelmistot erikseen.
         
 Rig luo satunnaisesti väärennetyt henkilöntiedot. Tähän ei sen isompaa selitystä ole, mutta huomaan, että tällainenkin on olemassa!
 
-KUVA
+![Kuva 4 1](https://user-images.githubusercontent.com/100162043/213925797-3ac69f0f-e66d-4d80-bcbe-11eed3d3c1d6.jpg)
+
 
 
 Seuraavana mennään nostalgian maailmaan ja -90 luvun lopun yhden isoimman elokuvan sisältöön! Tätä tuskin sen enempää täytyy perustella, miksi tämä on valittu!
@@ -50,7 +53,8 @@ Seuraavana mennään nostalgian maailmaan ja -90 luvun lopun yhden isoimman elok
         $ sudo apt install cmatrix
         $ cmatrix
         
-KUVA
+![Kuva 5 1](https://user-images.githubusercontent.com/100162043/213925801-b4363f25-6b3b-488a-9aa7-33cb0ecd4512.jpg)
+
 
 
 Viimeisimpänä valitsin keskelle ruutua tulevat silmät, jotka seuraavat hiireni liikettä! Mukavia pikku lisäyksiä terminaaliin. 
@@ -58,7 +62,8 @@ Viimeisimpänä valitsin keskelle ruutua tulevat silmät, jotka seuraavat hiiren
         $ sudo apt install x11-apps
         $ xeyes
         
-KUVA
+![Kuva 6 1](https://user-images.githubusercontent.com/100162043/213925807-c6632889-2f09-42cb-a61e-fa252ad3bb32.jpg)
+
 
 
 ## Important directories
@@ -67,7 +72,8 @@ Ensimmäisenä mikä tuli mieleen oli Root directory eli juurihakemisto. Tämän
 
           $ ls
           
-KUVA
+![Kuva 7 1](https://user-images.githubusercontent.com/100162043/213925815-48effa24-2c87-45ca-9662-eeed6b6c0c3e.jpg)
+
 
 
 Toisena otin esille oman home hakemiston. Täältä löytyy käyttäjän tiedostoja. Myös käyttäjä voi luoda uutta sisältöä home hakemistoon. 
@@ -75,7 +81,8 @@ Toisena otin esille oman home hakemiston. Täältä löytyy käyttäjän tiedost
           $ cd /home
           $ ls
           
-KUVA
+![Kuva 8 1](https://user-images.githubusercontent.com/100162043/213925822-9e39b692-3a09-4697-b508-206995d3b436.jpg)
+
 
 
 Viimeisimpänä ajattelin tuoda esille Etc kansiot, joka käytännössä pitää sisällään järjestelmään liittyvät tiedostot ja asetukset. 
@@ -83,7 +90,8 @@ Viimeisimpänä ajattelin tuoda esille Etc kansiot, joka käytännössä pitää
         $ cd /etc
         $ ls
         
-KUVA
+![Kuva 9 1](https://user-images.githubusercontent.com/100162043/213925824-cf4b71e4-a99c-4bf4-881d-20bd8bc1a58d.jpg)
+
 
 Kuten huomaa, etc kansion sisältö ei aivan edes mahtunut koko screenshottiin.. 
 
@@ -97,14 +105,16 @@ Ensimmäisenä esimerkkinä oli lähde listauksen mukaisesti katsottu grep komen
 
         $ grep -r "192.168.1.5" /etc/
         
-KUVA
+![Kuva 10 1](https://user-images.githubusercontent.com/100162043/213925831-51534b48-9e4c-4aa7-872b-53936b9bf51a.jpg)
+
 
 
 Toisena ja viimeisempänä käytin grep komennon avulla värimuutosta. 
 
         $ GREP_COLOR='1;35' grep --color=always nobody /etc/passwd
         
-KUVA
+![Kuva 11 1](https://user-images.githubusercontent.com/100162043/213925834-38687fee-7944-407d-b805-16a091ad7617.jpg)
+
 
 
 ## Tiivistelmä
