@@ -10,14 +10,14 @@ Syötetään terminaaliin komento:
 
         curl https://getmic.ro | bash
         
-[Kuva 1 1](https://user-images.githubusercontent.com/100162043/213925392-fedfae63-9ee0-4fb6-aabc-94b65cef0039.jpg)
+![Kuva 1 1](https://user-images.githubusercontent.com/100162043/213925771-872b480f-d0c7-4d20-9d2a-62e215afe36c.jpg)
 
 
 Tämän jälkeen listasin testaamani koneen raudan kirjoittamalla seuraavan komennon terminaaliin: 
 
         $ sudo lshw -short -sanitize
         
-[Kuva 2 1](https://user-images.githubusercontent.com/100162043/213925395-cc83a35e-b9a6-45eb-bf5b-370b4f00b1c4.jpg)
+KUVA
 
 
 Kuvan perusteella huomasin, että lshw komentoa ei löydetty, joten jatkoin asentamalla lshw:n terminaaliin:
@@ -26,7 +26,7 @@ Kuvan perusteella huomasin, että lshw komentoa ei löydetty, joten jatkoin asen
         
 Nyt kun kirjoitin komennon uudelleen, tulee haettu näkymä. 
 
-[Kuva 3 1](https://user-images.githubusercontent.com/100162043/213925401-986a758f-d4a0-4256-8a15-3fc1b4ddc6c6.jpg)
+KUVA
 
 
 Analyysi kertoo, että oma koneeni pitää sisällään Inter(R) Core(TM) i5-1035G1 CPU @ 1.00GHz prossun. Tämän lisäksi löydän tiedon asettamastani 4GiB muistista,
@@ -42,7 +42,7 @@ Asentelin nämä ohjelmistot erikseen.
         
 Rig luo satunnaisesti väärennetyt henkilöntiedot. Tähän ei sen isompaa selitystä ole, mutta huomaan, että tällainenkin on olemassa!
 
-[Kuva 4 1](https://user-images.githubusercontent.com/100162043/213925408-5b56c88a-50a0-4d56-857f-2585ac82f366.jpg)
+KUVA
 
 
 Seuraavana mennään nostalgian maailmaan ja -90 luvun lopun yhden isoimman elokuvan sisältöön! Tätä tuskin sen enempää täytyy perustella, miksi tämä on valittu!
@@ -50,7 +50,7 @@ Seuraavana mennään nostalgian maailmaan ja -90 luvun lopun yhden isoimman elok
         $ sudo apt install cmatrix
         $ cmatrix
         
-[Kuva 5 1](https://user-images.githubusercontent.com/100162043/213925417-b6d0cfc8-f6ff-485e-acd8-243ec4d7e6c4.jpg)
+KUVA
 
 
 Viimeisimpänä valitsin keskelle ruutua tulevat silmät, jotka seuraavat hiireni liikettä! Mukavia pikku lisäyksiä terminaaliin. 
@@ -58,7 +58,7 @@ Viimeisimpänä valitsin keskelle ruutua tulevat silmät, jotka seuraavat hiiren
         $ sudo apt install x11-apps
         $ xeyes
         
-[Kuva 6 1](https://user-images.githubusercontent.com/100162043/213925466-a9a4645c-a000-452a-9690-c39accdcb0aa.jpg)
+KUVA
 
 
 ## Important directories
@@ -67,7 +67,7 @@ Ensimmäisenä mikä tuli mieleen oli Root directory eli juurihakemisto. Tämän
 
           $ ls
           
-[Kuva 7 1](https://user-images.githubusercontent.com/100162043/213925476-c46855a6-636f-430a-a926-ffa5af5939f1.jpg)
+KUVA
 
 
 Toisena otin esille oman home hakemiston. Täältä löytyy käyttäjän tiedostoja. Myös käyttäjä voi luoda uutta sisältöä home hakemistoon. 
@@ -75,7 +75,7 @@ Toisena otin esille oman home hakemiston. Täältä löytyy käyttäjän tiedost
           $ cd /home
           $ ls
           
-[Kuva 8 1](https://user-images.githubusercontent.com/100162043/213925483-ab2a707e-3483-40b3-a194-7c2a1277a8b4.jpg)
+KUVA
 
 
 Viimeisimpänä ajattelin tuoda esille Etc kansiot, joka käytännössä pitää sisällään järjestelmään liittyvät tiedostot ja asetukset. 
@@ -83,8 +83,7 @@ Viimeisimpänä ajattelin tuoda esille Etc kansiot, joka käytännössä pitää
         $ cd /etc
         $ ls
         
-[Kuva 9 1](https://user-images.githubusercontent.com/100162043/213925491-470f9d09-f0fd-4bfa-b97e-bf7436cec9c1.jpg)
-
+KUVA
 
 Kuten huomaa, etc kansion sisältö ei aivan edes mahtunut koko screenshottiin.. 
 
@@ -98,14 +97,14 @@ Ensimmäisenä esimerkkinä oli lähde listauksen mukaisesti katsottu grep komen
 
         $ grep -r "192.168.1.5" /etc/
         
-[Kuva 10 1](https://user-images.githubusercontent.com/100162043/213925495-729be8e3-33fb-47ee-960e-fa632e5452ee.jpg)
+KUVA
 
 
 Toisena ja viimeisempänä käytin grep komennon avulla värimuutosta. 
 
         $ GREP_COLOR='1;35' grep --color=always nobody /etc/passwd
         
-[Kuva 11 1](https://user-images.githubusercontent.com/100162043/213925501-2e3b5390-6d69-4fa6-8ec1-629a25bd1adb.jpg)
+KUVA
 
 
 ## Tiivistelmä
