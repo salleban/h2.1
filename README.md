@@ -32,7 +32,7 @@ Nyt kun kirjoitin komennon uudelleen, tulee haettu näkymä.
 
 
 Analyysi kertoo, että oma koneeni pitää sisällään Inter(R) Core(TM) i5-1035G1 CPU @ 1.00GHz prossun. Tämän lisäksi löydän tiedon asettamastani 4GiB muistista,
-jonka asetin Virtuaalikoneelleni. Tästä listauksesta löytyy myös paljon muuta tietoa, mutta nämä olen kokenut tärkeimmiksi mainita. 
+jonka asetin Virtuaalikoneelleni. Tästä listauksesta löytyy myös paljon muuta tietoa, mutta näistä en osaa sen tarkemmin kertoa. 
 
 ## Komentoriviohjelmat
 
